@@ -1,6 +1,6 @@
 #!/opt/java/jdk-11/bin/java --source 11
 public class Week1 {
-    public main{
+    public static void main(String[] args) {
         
     }
 }
