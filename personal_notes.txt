@@ -1,0 +1,26 @@
+"""
+Function that return true if image contain alpha transparency
+Function was obtained from 
+https://stackoverflow.com/questions/43864101/python-pil-check-if-image-is-transparent 
+It is not test nor used in the early generation of this program.
+"""
+
+
+def has_transparency(img):
+    if img.info.get("transparency", None) is not None:
+        return True
+    if img.mode == "P":
+        transparent = img.info.get("transparency", -1)
+        for _, index in img.getcolors():
+            if index == transparent:
+                return True
+    elif img.mode == "RGBA":
+        extrema = img.getextrema()
+        if extrema[3][0] < 255:
+            return True
+
+    return False
+
+    """  image_list = [
+         image for image in image_folder if not image.endswith('.ini')] """
+    # pool.map(process_image, [image_list, input_path, angle, size, output_path])

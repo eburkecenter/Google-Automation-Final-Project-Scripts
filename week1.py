@@ -3,24 +3,23 @@
 
                             Manipulating Images 
 """
-#importing library
+# importing library
 from PIL import Image
 import os
 from multiprocessing import Pool
 # Reading images from location
-#images = input("Please enter path to location of images: ")
+# images = input("Please enter path to location of images: ")
 
-#Hard path for testing purposes
-#path = "C:/Users/eburk/Desktop/Screenshots2"
-input_path = r"C:\Users\eburk\Desktop\pics"
-output_path =r"C:\Users\eburk\Desktop\pics2"
+# Hard path for testing purposes
+# path = "C:/Users/eburk/Desktop/Screenshots2"
+input_path = "C:/Users/eburk/Desktop/pics"
+output_path = "C:/Users/eburk/Desktop/pics2"
 angle = 90
-size = (128,128)
-#reading images
+size = (128, 128)
+# reading images
 image_folder = os.listdir(input_path)
 
 # Creating a Pool for multi threading.
-pool = Pool(4)
 
 """ 
      Creating a function that does the following: 
@@ -29,11 +28,22 @@ pool = Pool(4)
 # 3. Save the image to a new folder in .jpeg format
 
 """
-def process_image(image,folder,angle,size,output):
-    im = Image.open(folder+r"\\"+ image)
-    new_image = im.rotate(angle).resize(size)
-    new_path = os.path.join(output,image)
-    new_image.save(new_path,"jpeg")
 
-for image in image_folder:
-    process_image(image,input_path,angle,size,output_path)
+
+def process_image(image, folder, angle, size, output):
+    im = Image.open(folder+"/" + image)
+    new_image = im.rotate(angle).resize(size)
+    new_path = os.path.join(output, image)
+    new_image.save(new_path, "jpeg")
+
+
+# Running program
+if __name__ == "__main__":
+    for image in image_folder:
+        if image.endswith('.ini'):
+            continue
+        try:
+            process_image(image, input_path, angle, size, output_path)
+        except OSError as error:
+            print(error)
+            pass
