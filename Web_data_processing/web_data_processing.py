@@ -30,7 +30,8 @@ for file in input_folder:
         output_dict["date"] = lines[2]
         output_dict["feedback"] = lines[3]
         # replace <corpweb-external-IP>with given ip address
-        """requests.post("http://<corpweb-external-IP>/feedback/", data=output_dict)"""
+        requests.post("http://<corpweb-external-IP>/feedback/",
+                      data=output_dict)
 
 
 # Written to test parsing locally

@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
+""" Welcome to Week 3 of Google Automation Final Project written in Python 
 
+                            Manipulating Images 
+"""
 import json
 import locale
 import sys
