@@ -2,7 +2,7 @@
 
 /*Welcome to Week 2 of Google Automation Final Project written in Java */
 
-public class ImageProcessing {
+public class WebDataProcessing {
     public static void main(String[] args) {
         
     }
