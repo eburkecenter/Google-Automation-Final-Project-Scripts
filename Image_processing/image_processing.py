@@ -10,8 +10,6 @@ import os
 import sys
 
 # Reading images from location
-
-# print(len(sys.argv))
 if len(sys.argv) <= 2:
     print("Please enter arguments input path and output path")
     sys.exit(1)
@@ -34,11 +32,12 @@ def process_image(image, folder, angle, size, output):
     # 4. Save the image to a new folder in .jpeg format
 
     """
+    new_image_name, x = os.path.splitext(image)
     img_path = os.path.join(folder, image)
     im = Image.open(img_path)
     new_image = im.convert("RGB").rotate(angle).resize(size)
     # print(new_image)
-    new_image.save(output+"/"+image, "JPEG")
+    new_image.save(output+"/"+new_image_name + ".jpeg")
 
 
 def main():
