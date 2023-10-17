@@ -38,8 +38,8 @@ Project 3, Email Processing:
     * Task:
       * Write a script that automatically generates a PDF and sends it by email meeting the following criteria.
         1. Write a script that summarizes and processes sales data into different categories
-        2. Generate a PDF using Python
-        3. Automatically send a PDF by email 
+        1. Generate a PDF using Python
+        1. Automatically send a PDF by email 
     * Results:
       -  [Python Script](Email_processing/python/cars.py)
       -  [Bash Script](Email_processing/Bash/cars.sh)
