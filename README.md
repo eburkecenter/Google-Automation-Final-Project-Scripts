@@ -46,7 +46,7 @@ Project 3, Email Processing:
       -  [Powershell Script](Email_processing/Powershell/cars.ps1)
       -  [Java Script](Email_processing/Java/cars)
 
-Project 4, Catalog Information Updating and Monitoring Activity
+Project 4, Catalog Information Updating and Monitoring Activity:
 -   Project Problem Statement:
     - You work for an online fruit store, and you need to develop a system that will update the catalog information with data provided by your suppliers. When each supplier has new products for your store, they give you an image and a description of each product. Since this process is key to your business's success, you need to make sure that it keeps running!
     * Task:
