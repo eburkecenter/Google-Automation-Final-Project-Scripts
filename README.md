@@ -3,10 +3,10 @@
 
 Project 1, Image Processing:<br />
 -   Project Problem Statement:
-    -Your company is in the process of updating its website, and a design contractor has been hired to create some new icon graphics for the site. However, the contractor has delivered the final designs and they’re in the wrong format, rotated 90° and too large. You’re unable to get in contact with the designers and your own deadline is approaching fast.
-    -Task:
-     -Write a script that processes a bunch of image meeting the following criteria. 
-      -   Pass input image folder and output folder as arguments
+    - Your company is in the process of updating its website, and a design contractor has been hired to create some new icon graphics for the site. However, the contractor has delivered the final designs and they’re in the wrong format, rotated 90° and too large. You’re unable to get in contact with the designers and your own deadline is approaching fast.
+     - Task:
+      - Write a script that processes a bunch of image meeting the following criteria. 
+       -   Pass input image folder and output folder as arguments
         1. Convert images to standard RBG
         2. Rotate the image 90° clockwise
         3. Resize the image from 192x192 to 128x128
