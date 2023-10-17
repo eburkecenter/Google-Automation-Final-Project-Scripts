@@ -12,10 +12,10 @@ Project 1, Image Processing:
         4. Resize the image from 192x192 to 128x128
         5. Save the image to a new folder in .jpeg format
     Results:
-        [Python Script](Image_processing\image_processing.py)
-        [Bash Script](Image_processing\image_processing.sh)
-        [Powershell Script](Image_processing\image-processing.ps1)
-        [Java Script](Image_processing\ImageProcessing)
+        [Python Script](Image_processing/image_processing.py)
+        [Bash Script](Image_processing/image_processing.sh)
+        [Powershell Script](Image_processing/image-processing.ps1)
+        [Java Script](Image_processing/ImageProcessing)
 
 Project 2, Web Data Processing: 
     Project Problem Statement: 
@@ -27,10 +27,10 @@ Project 2, Web Data Processing:
         3. Use the Python requests module to upload content to a running Web service
         4. Understand basic operations for Python requests like GET and POST methods
     Results: 
-        [Python Script](Web_data_processing\web_data_processing.py)
-        [Bash Script](Web_data_processing\web_data_processing.sh)
-        [Powershell Script](Web_data_processing\web-data-processing.ps1)
-        [Java Script](Web_data_processing\WebDataProcessing)
+        [Python Script](Web_data_processing/web_data_processing.py)
+        [Bash Script](Web_data_processing/web_data_processing.sh)
+        [Powershell Script](Web_data_processing/web-data-processing.ps1)
+        [Java Script](Web_data_processing/WebDataProcessing)
 
 Project 3, Email Processing:
     Project Problem Statement:
@@ -41,8 +41,8 @@ Project 3, Email Processing:
         2. Generate a PDF using Python
         3. Automatically send a PDF by email 
     Results:
-        [Python Script](Email_processing\python\cars.py)
-        [Bash Script](Email_processing\Bash\cars.sh)
+        [Python Script](Email_processing/python/cars.py)
+        [Bash Script](Email_processing/Bash/cars.sh)
         [Powershell Script](Email_processing/Powershell/cars.ps1)
         [Java Script](Email_processing/Java/cars)
 
@@ -56,7 +56,7 @@ Project 4, Catalog Information Updating and Monitoring Activity
         3. Run a script on your web server to monitor system health.
         4. Send an email with an alert if the server is ever unhealthy.
     Results:
-        [Python Script](Catalog_Info_processing\Python)
-        [Bash Script](Catalog_Info_processing\Bash)
-        [Powershell Script](Catalog_Info_processing\Powershell)
-        [Java Script](Catalog_Info_processing\Java)
+        [Python Script](Catalog_Info_processing/Python)
+        [Bash Script](Catalog_Info_processing/Bash)
+        [Powershell Script](Catalog_Info_processing/Powershell)
+        [Java Script](Catalog_Info_processing/Java)
