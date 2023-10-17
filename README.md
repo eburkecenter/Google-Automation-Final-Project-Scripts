@@ -1,5 +1,5 @@
-Google IT Automation with Python Professional Certificate 
-                     Final Project
+                                                Google IT Automation with Python Professional Certificate 
+                                                                    Final Project
 
 Project 1, Image Processing:
     Project Problem Statement:
@@ -42,3 +42,21 @@ Project 3, Email Processing:
         3. Automatically send a PDF by email 
     Results:
         [Python Script](Email_processing\python\cars.py)
+        [Bash Script](Email_processing\Bash\cars.sh)
+        [Powershell Script](Email_processing/Powershell/cars.ps1)
+        [Java Script](Email_processing/Java/cars)
+
+Project 4, Catalog Information Updating and Monitoring Activity
+    Project Problem Statement:
+     You work for an online fruit store, and you need to develop a system that will update the catalog information with data provided by your suppliers. When each supplier has new products for your store, they give you an image and a description of each product. Since this process is key to your business's success, you need to make sure that it keeps running!
+    Task:
+     Write a script that automatically handles the problem objectives meeting the following criteria.
+        1. Upload the new products to your online store. Images and descriptions should be uploaded separately, using two different web endpoints.
+        2. Send a report back to the supplier, letting them know what you imported.
+        3. Run a script on your web server to monitor system health.
+        4. Send an email with an alert if the server is ever unhealthy.
+    Results:
+        [Python Script](Catalog_Info_processing\Python)
+        [Bash Script](Catalog_Info_processing\Bash)
+        [Powershell Script](Catalog_Info_processing\Powershell)
+        [Java Script](Catalog_Info_processing\Java)
